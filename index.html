@@ -7,18 +7,30 @@
     <meta name="author" content="Connor Koke">
     <meta name="description" content="A profile of the magical and marvelous Grand Canyon.">
     <meta name="keywords" content="Grand Canyon, National Park, Nature, Adventure ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <div class="wrapper">
     <!-- Header Section -->
      <header> 
 <h1>The Grand Canyon</h1>
-<p>The Grand Canyon is a steep-sided canyon carved by the <em>Colorado River</em> in Arizona, United States.</p>
+<nav>
+    <ul>
+        <li><a href="#section-1">Location</a></li>
+        <li> <a href="#section-2"> Common Misconceptions</a></li>
+        <li><a href="#section-3">Gallery</a></li>
+    </ul>
+</nav>
+<p class="intro">The Grand Canyon is a steep-sided canyon carved by the <em>Colorado River</em> in Arizona, United States.</p>
      </header>
 
      <!-- Main Section -->
 <Main>
     <!-- Section 1 -->
-     <section>
+     <section id="section-1">
           <h2>Location</h2>
 <p>Grand Canyon National Park is in the northwest corner of Arizona. The Colorado River flows through the canyon, comprised from water from seven states, yet the feature we know as Grand Canyon is entirely in Arizona.</p>
      </section>
@@ -31,7 +43,7 @@
       </section>
 
 <!-- Section 3 -->
- <section>
+ <section id="section-2">
      <h2>Common Misconceptions</h2>
      <ol>
           <li> There are no dinosaur bones in the Grand Canyon</li>
@@ -51,22 +63,14 @@
   </section>
 <hr>
   <!-- Section 5 -->
-   <section>
+   <section id="section-3">
     <h3>Gallery</h3>
-<figure>
-    <img src="images/Get-to-Know-the-Grand-Canyon-Secrets-and-the-Hidden-Waterfall.jpg" alt="One of many watefalls in the Grand Canyon">
-<figcaption><b>One of many watefalls in the Grand Canyon</b></figcaption>
-</figure>
-    
-<figure>
-<img src="images/mather-point-2021.jpg" alt="Visitors look out from a viewpoint">
-<figcaption><b>Visitors look out from a viewpoint</b></figcaption>
-</figure>
+    <div class="gallery">
+            <img src="images/Get-to-Know-the-Grand-Canyon-Secrets-and-the-Hidden-Waterfall.jpg" alt="One of many watefalls in the Grand Canyon">
+        <img src="images/mather-point-2021.jpg" alt="Visitors look out from a viewpoint">
+        <img src="images/shutterstock_97706066_1.jpg" alt="View of the Colorado River from the Upper Rim" id="photo-3">
+    </div>
 
-<figure>
-<img src="images/shutterstock_97706066_1.jpg" alt="View of the Colorado River from the Upper Rim">
-<figcaption><b>View of the Colorado River from the Upper Rim</b></figcaption>
-</figure>
 </section>
 <!-- Section 6 -->
 <section>
@@ -92,6 +96,6 @@
      </p>
  </footer>
 
-
+</div>
 </body>
 </html>
